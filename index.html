@@ -4,98 +4,27 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Vladd1s Files</title>
-
 <style>
-body {
-    margin: 0;
-    background: #0d0d0d;
-    color: white;
-    font-family: Arial, sans-serif;
-    text-align: center;
-}
-
-header {
-    padding: 25px;
-    font-size: 32px;
-    font-weight: bold;
-    letter-spacing: 2px;
-}
-
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    padding: 20px;
-}
-
-.media-box {
-    background: #1a1a1a;
-    border: 2px solid #333;
-    border-radius: 15px;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 250px;
-}
-
-.media-box img,
-.media-box video {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-
-#loginBox {
-    margin-top: 80px;
-}
-
-input {
-    padding: 12px;
-    width: 260px;
-    border-radius: 8px;
-    border: none;
-    background: #1a1a1a;
-    color: white;
-    font-size: 16px;
-}
-
-button {
-    padding: 12px 25px;
-    border: none;
-    border-radius: 8px;
-    background: #333;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    transition: 0.2s;
-}
-
-button:hover {
-    background: #555;
-}
-
-#errorText {
-    color: red;
-    margin-top: 15px;
-}
-
-footer {
-    margin-top: 30px;
-    padding: 20px;
-    font-size: 14px;
-    opacity: 0.6;
-}
+body { margin:0; background:#0d0d0d; color:white; font-family:Arial,sans-serif; text-align:center; }
+header { padding:25px; font-size:32px; font-weight:bold; letter-spacing:2px; }
+.gallery { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:20px; padding:20px; }
+.media-box { background:#1a1a1a; border:2px solid #333; border-radius:15px; overflow:hidden; display:flex; justify-content:center; align-items:center; min-height:250px; }
+.media-box img,.media-box video { width:100%; height:100%; object-fit:contain; }
+#loginBox { margin-top:80px; }
+input { padding:12px; width:260px; border-radius:8px; border:none; background:#1a1a1a; color:white; font-size:16px; }
+button { padding:12px 25px; border:none; border-radius:8px; background:#333; color:white; font-size:16px; cursor:pointer; transition:0.2s; }
+button:hover { background:#555; }
+#errorText { color:red; margin-top:15px; }
+footer { margin-top:30px; padding:20px; font-size:14px; opacity:0.6; }
 </style>
 </head>
-
 <body>
 
 <header>Vladd1s Files</header>
 
 <!-- LOGIN -->
 <div id="loginBox">
-    <h2>Введите токен</h2>
+    <h2>Нет токена? Получи <a href="https://t.me/vladd1s_bot" target="_blank">тут</a></h2>
     <input type="text" id="tokenInput" placeholder="Ваш токен">
     <br><br>
     <button onclick="checkToken()">Войти</button>
@@ -104,270 +33,29 @@ footer {
 
 <!-- CONTENT -->
 <div id="content" style="display:none;">
-
-    <div class="gallery">
-
-        <div class="media-box">
-            <img src="photo1.jpg">
-        </div>
-
-        <div class="media-box">
-            <img src="photo2.jpg">
-        </div>
-
-        <div class="media-box">
-            <img src="photo3.jpg">
-        </div>
-
-        <div class="media-box">
-            <img src="photo4.jpg">
-        </div>
-
-        <div class="media-box">
-            <img src="photo5.jpg">
-        </div>
-
-        <div class="media-box">
-            <img src="photo6.jpg">
-        </div>
-
-        <div class="media-box">
-            <img src="photo7.jpg">
-        </div>
-
-        <div class="media-box">
-            <img src="photo8.jpg">
-        </div>
-
-        <div class="media-box">
-            <img src="photo9.jpg">
-        </div>
-
-        <div class="media-box">
-            <img src="photo10.jpg">
-        </div>
-
-        <div class="media-box">
-            <img src="photo11.jpg">
-        </div>
-
-        <div class="media-box">
-            <img src="photo12.jpg">
-        </div>
-
-        <div class="media-box">
-            <img src="photo13.jpg">
-        </div>
-
-        <div class="media-box">
-            <img src="photo14.jpg">
-        </div>
-
-        <div class="media-box">
-            <img src="photo15.jpg">
-        </div>
-
-        <div class="media-box">
-            <img src="photo16.jpg">
-        </div>
-
-        <div class="media-box">
-            <img src="photo17.jpg">
-        </div>
-
-        <div class="media-box">
-            <img src="photo18.jpg">
-        </div>
-
-        <div class="media-box">
-            <img src="photo19.jpg">
-        </div>
-
-        <div class="media-box">
-            <img src="photo20.jpg">
-        </div>
-
-        <div class="media-box">
-            <img src="photo21.jpg">
-        </div>
-
-        <div class="media-box">
-            <img src="photo22.jpg">
-        </div>
-
-        <div class="media-box">
-            <img src="photo23.jpg">
-        </div>
-
-        <div class="media-box">
-            <img src="photo24.jpg">
-        </div>
-
-        <div class="media-box">
-            <img src="photo25.jpg">
-        </div>
-
-        <div class="media-box">
-            <img src="photo26.jpg">
-        </div>
-
-        <div class="media-box">
-            <img src="photo27.jpg">
-        </div>
-
-        <div class="media-box">
-            <img src="photo28.jpg">
-        </div>
-
-        <div class="media-box">
-            <img src="photo29.jpg">
-        </div>
-
-        <div class="media-box">
-            <img src="photo30.jpg">
-        </div>
-
-        <div class="media-box">
-            <img src="photo31.jpg">
-        </div>
-
-        <div class="media-box">
-            <img src="photo32.jpg">
-        </div>
-
-        <div class="media-box">
-            <img src="photo33.jpg">
-        </div>
-
-        <div class="media-box">
-            <img src="photo34.jpg">
-        </div>
-
-        <div class="media-box">
-            <img src="photo35.jpg">
-        </div>
-
-        <div class="media-box">
-            <img src="photo36.jpg">
-        </div>
-
-        <div class="media-box">
-            <img src="photo37.jpg">
-        </div>
-
-        <div class="media-box">
-            <video controls>
-                <source src="vid1.mp4" type="video/mp4">
-            </video>
-        </div>
-
-        <div class="media-box">
-            <video controls>
-                <source src="vid2.mp4" type="video/mp4">
-            </video>
-        </div>
-
-        <div class="media-box">
-            <video controls>
-                <source src="vid3.mp4" type="video/mp4">
-            </video>
-        </div>
-
-        <div class="media-box">
-            <video controls>
-                <source src="vid4.mp4" type="video/mp4">
-            </video>
-        </div>
-
-        <div class="media-box">
-            <video controls>
-                <source src="vid5.mp4" type="video/mp4">
-            </video>
-        </div>
-
-        <div class="media-box">
-            <video controls>
-                <source src="vid6.mp4" type="video/mp4">
-            </video>
-        </div>
-
-        <div class="media-box">
-            <video controls>
-                <source src="vid7.mp4" type="video/mp4">
-            </video>
-        </div>
-
-        <div class="media-box">
-            <video controls>
-                <source src="vid8.mp4" type="video/mp4">
-            </video>
-        </div>
-
-        <div class="media-box">
-            <video controls>
-                <source src="vid9.mp4" type="video/mp4">
-            </video>
-        </div>
-
-        <div class="media-box">
-            <video controls>
-                <source src="vid10.mp4" type="video/mp4">
-            </video>
-        </div>
-
-        <div class="media-box">
-            <video controls>
-                <source src="vid11.mp4" type="video/mp4">
-            </video>
-        </div>
-
-        <div class="media-box">
-            <video controls>
-                <source src="vid12.mp4" type="video/mp4">
-            </video>
-        </div>
-
-        <div class="media-box">
-            <video controls>
-                <source src="vid13.mp4" type="video/mp4">
-            </video>
-        </div>
-
-        <div class="media-box">
-            <video controls>
-                <source src="vid14.mp4" type="video/mp4">
-            </video>
-        </div>
-
-        <div class="media-box">
-            <video controls>
-                <source src="vid15.mp4" type="video/mp4">
-            </video>
-        </div>
-
-        <div class="media-box">
-            <video controls>
-                <source src="vid16.mp4" type="video/mp4">
-            </video>
-        </div>
-
-        <div class="media-box">
-            <video controls>
-                <source src="vid17.mp4" type="video/mp4">
-            </video>
-        </div>
-
-        <div class="media-box">
-            <video controls>
-                <source src="vid18.mp4" type="video/mp4">
-            </video>
-        </div>
-
-    </div>
-
+    <div class="gallery" id="gallery"></div>
 </div>
 
 <script>
+const photos = 37, videos = 18; // Количество фото и видео
+const gallery = document.getElementById('gallery');
+
+// Генерация фото
+for(let i = 1; i <= photos; i++) {
+    let div = document.createElement('div');
+    div.className = 'media-box';
+    div.innerHTML = `<img src="photo${i}.jpg">`;
+    gallery.appendChild(div);
+}
+
+// Генерация видео
+for(let i = 1; i <= videos; i++) {
+    let div = document.createElement('div');
+    div.className = 'media-box';
+    div.innerHTML = `<video controls><source src="vid${i}.mp4" type="video/mp4"></video>`;
+    gallery.appendChild(div);
+}
+
 function checkToken() {
     const userToken = document.getElementById("tokenInput").value.trim();
     const errorText = document.getElementById("errorText");
@@ -379,14 +67,11 @@ function checkToken() {
 
     fetch("tokens.txt")
     .then(response => {
-        if (!response.ok) {
-            throw new Error("Файл не найден");
-        }
+        if (!response.ok) throw new Error("Файл не найден");
         return response.text();
     })
     .then(data => {
         const tokens = data.split("\n").map(t => t.trim());
-
         if(tokens.includes(userToken)) {
             document.getElementById("loginBox").style.display = "none";
             document.getElementById("content").style.display = "block";
@@ -401,9 +86,6 @@ function checkToken() {
 }
 </script>
 
-<footer>
-made by anonymous ©2014-2026 Все права защищены
-</footer>
-
+<footer>made by anonymous ©2014-2026 Все права защищены</footer>
 </body>
 </html>
